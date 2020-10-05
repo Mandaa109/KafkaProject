@@ -14,6 +14,7 @@ public class ProducerExample {
         String topic = args[1];
         String brokers = args[2];
         Random rnd = new Random();
+        
 
         Properties props = new Properties();
         props.put("bootstrap.servers", brokers);
